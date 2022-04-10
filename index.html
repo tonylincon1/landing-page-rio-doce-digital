@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	
+	<meta charset="utf-8">
+	<title>Empreendedorismo Universitário</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/loader.css" rel="stylesheet" type="text/css">
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+    
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+		
+	</script>
+	
+</head>
+<body>
+
+
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<header>
+			
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					
+					<!-- LOGO -->
+					<div class="logo pull-left">
+						<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>
+					</div><!-- //LOGO -->
+
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="scroll_btn"><a href="#oprograma" >O programa</a></li>
+								<li class="scroll_btn"><a href="#metodologia" >Metodologia</a></li>
+								<li class="scroll_btn"><a href="#edital" >Edital</a></li>
+								<li class="scroll_btn"><a href="#certificacoes" >Certificação</a></li>
+								<li class="scroll_btn last"><a href="#inscricoes" >Inscrições</a></li>
+								<li class="scroll_btn last"><a href="#duvidas" >Dúvidas</a></li>
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+					<div id="countdown" class="countdown">
+						<div class="time">
+						<h2 id="days">00</h2>
+						<small>Dias</small>
+						</div>
+						<div class="time">
+						<h2 id="hours">00</h2>
+						<small>Horas</small>
+						</div>
+						<div class="time">
+						<h2 id="minutes">00</h2>
+						<small>Minutos</small>
+						</div>
+						<div class="time">
+						<h2 id="seconds">00</h2>
+						<small>Segundos</small>
+						</div>
+					</div>
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+
+		<!-- HOME -->
+		<section id="home" class="padbot0">
+				
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">
+				<div class="overlay">
+					<span></span>
+					<span></span>
+				</div>
+				<div class="col-lg-6 col-md-12 col-xs-12">
+						<div class="contents">
+							<h2 class="head-title">Empreendedorismo Universitário</h2>
+							<p class="tagp">Aprenda na prática como revolucionar o ecossistema universitário de Mariana por meio de eventos relacionados às temáticas de empreendedorismo e inovação</p>
+						</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12 col-xs-12 p-0">
+					<div class="intro-img">
+						<img src="images/ideia.jpg" alt="">
+					</div>
+				</div>
+				   
+			</div>
+		</section><!-- //HOME -->
+		
+
+		
+		<!-- ABOUT -->
+		<section id="oprograma">
+			<!-- MULTI PURPOSE -->
+			<div class="purpose_block">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+					
+					<!-- ROW -->
+					<div class="row">
+				
+							<h2>E O QUE VAMOS <b>APRENDER?</b></h2>
+							<p>Planejar, organizar e executar eventos de inovação e empreendedorismo, como:</p>
+							<p><b>Bootcamps, hackathons, competições de planos de negócios, ideathons, dentro outros.</b></p>
+							<p>Direcionados especialmente para o ambiente universitário e voltados para o desenvolvimento de ideias de negócio que utilizem conhecimento de base tecnológica.</p>
+							<a class="btn btn-active" href="#" ><span data-hover="Clique aqui">Inscreva-se</span></a>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //MULTI PURPOSE -->
+			
+			<!-- CLEAN CODE -->
+			<div id="metodologia" class="cleancode_block">
+				
+				<!-- CONTAINER -->
+				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+					<div class="tab-pane fade in active1 clearfix" id="tab7">
+						<p class="title1"><b>Metodologia</b></p>
+						<span>Aqui vem o texto da metodologia.</span>
+					</div>
+
+					<ul id="myTab" class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab" ><i class="fa fa-lightbulb-o" style="font-size:64px;color:rgb(107, 107, 107)"></i><span>Planejamento</span></a></li>
+						<li><a class="i2" href="#tab2" data-toggle="tab" ><i></i><span>Ferramentas</span></a></li>
+						<li><a href="#tab3" data-toggle="tab" ><i class="fa fa-calendar" style="font-size:58px;color:rgb(107, 107, 107)"></i><span>Gestão</span></a></li>
+						<li><a href="#tab4" data-toggle="tab" ><i class="fa fa-bullseye" style="font-size:58px;color:rgb(107, 107, 107)"></i><span>Execução</span></a></li>
+					</ul><!-- CASTOM TAB -->
+					<!-- CASTOM TAB -->
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade in active clearfix" id="tab1">
+							<p class="title"><b>Planejamento</b></p>
+							<span>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab2">
+							<p class="title"><b>Ferramentas</b></p>
+							<span>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab3">
+							<p class="title"><b>Gestão</b></p>
+							<span>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab4">
+							<p class="title"><b>Execução</b></p>
+							<span>We tried to make very high-quality product and so our code is very neat and clean. Whatever anyone could improve and modify the template to your liking.</span>
+						</div>
+					</div>
+				</div><!-- //CONTAINER -->
+			</div><!-- //CLEAN CODE -->
+		</section><!-- //ABOUT -->
+		
+		
+		<!-- PROJECTS -->
+		<section id="edital" class="padbot20">
+			<!-- CONTAINER -->
+			<div class="purpose_block">
+				<div class="container1">
+					<div class="row">
+						<h2><b>Edital</b></h2>
+						<p>Informações sobre o edital Informações sobre o edital Informações sobre o edital Informações sobre o edital Informações sobre o edital Informações sobre o edital Informações sobre o edital Informações sobre o edital Informações sobre o edital </p>
+						<a class="btn btn-active" href="#" ><span data-hover="Baixar">Edital</span></a>
+					</div>
+				</div>
+			</div><!-- //CONTAINER -->
+		</section><!-- //TEAM -->
+		
+
+		<section id="feature">
+			<div class="container">
+			  <div class="row">
+				<div class="col-md-6 col-md-offset-6">
+				</div>
+			  </div>
+			</div>
+		</section>
+
+
+		<!-- TEAM -->
+		<section id="certificacoes">
+		<div class="purpose_block">
+			<!-- CONTAINER -->
+			<div class="container1">
+				<div class="row">
+					<h2><b>Certificações</b></h2>
+					<p>Informações sobre certificações Informações sobre certificações Informações sobre certificações Informações sobre certificações Informações sobre certificações Informações sobre certificações Informações sobre certificações Informações sobre certificações Informações sobre certificações Informações sobre certificações Informações sobre certificações  </p>
+				</div>
+
+			</div>
+		</div>	
+		</section><!-- //TEAM -->
+		
+		
+		<!-- NEWS -->
+		<section id="inscricoes">
+			<div class="purpose_block">
+				<div class="container1">
+					<div class="row1">
+					<h2><b>E aí, bora se tornar um expert em eventos de inovação?</b></h2>
+					<div id="countdown1" class="countdown">
+						<div class="time">
+						  <h2 id="days1">00</h2>
+						  <small>Dias</small>
+						</div>
+						<div class="time">
+						  <h2 id="hours1">00</h2>
+						  <small>Horas</small>
+						</div>
+						<div class="time">
+						  <h2 id="minutes1">00</h2>
+						  <small>Minutos</small>
+						</div>
+						<div class="time">
+						  <h2 id="seconds1">00</h2>
+						  <small>Segundos</small>
+						</div>
+					  </div>
+					</div>
+					</div>
+					<a class="btn btn-active" href="#" ><span data-hover="Clique aqui">Inscreva-se</span></a>
+				</div>
+			</div><!-- //CONTAINER -->
+		</section><!-- //NEWS -->
+
+		<!-- TEAM -->
+		<section id="duvidas">
+			<div class="purpose_block">
+				<!-- CONTAINER -->
+				<div class="container2">
+					<h2><b>Ainda tem dúvidas?</b></h2>
+				</div>
+					
+				<button class="accordion">Preciso pagar pela certificação?</button>
+				<div class="panel">
+				<p>Resposta</p>
+				</div>
+
+				<button class="accordion">Posso estar cursando qualquer curso superior?</button>
+				<div class="panel">
+				<p>Resposta</p>
+				</div>
+
+				<button class="accordion">Moro em Mariana, mas faço faculdade EAD em outra cidade, posso participar?</button>
+				<div class="panel">
+				<p>Resposta</p>
+				</div>
+
+				<button class="accordion">Existe limite de idade para inscrição?</button>
+				<div class="panel">
+				<p>Resposta</p>
+				</div>
+
+				<button class="accordion">Preciso residir em Mariana?</button>
+				<div class="panel">
+				<p>Resposta</p>
+				</div>
+
+				<button class="accordion">Para receber a bolsa, a pessoa tem que frequentar o numero x de atividades ou algo nesse sentido?</button>
+				<div class="panel">
+				<p>Resposta</p>
+				</div>
+
+				<button class="accordion">Possuo vínculo empregatício, posso receber a bolsa?</button>
+				<div class="panel">
+				<p>Resposta</p>
+				</div>
+
+				<button class="accordion">Quais fatores me tornam inelegível para recebimento da bolsa?</button>
+				<div class="panel">
+				<p>Resposta</p>
+				</div>
+			</div>
+		</section><!-- //TEAM -->
+
+		<script>
+		
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+	
+			for (i = 0; i < acc.length; i++) {
+				acc[i].onclick = function(){
+					this.classList.toggle("active");
+					this.nextElementSibling.classList.toggle("show");
+				}
+			}
+			
+		</script>
+
+		<!-- Footer->
+		<footer class="bg-black text-center py-5">
+			<div class="container px-5">
+				<div class="text-white-50 small">
+					<div class="mb-2">&copy; Todos os direitos reservados a X, 2022.</div>
+				</div>
+			</div>
+		</footer>
+		 Feedback Modal-->
+
+	</div><!-- //PAGE -->
+
+	
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
