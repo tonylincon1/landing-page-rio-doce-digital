@@ -39,7 +39,16 @@ section {background-color:#fff;}
 .contents {padding-top: 10%;}
 
 .container1 {padding-left:0; padding-right:0; padding-bottom:5%;padding-top:5%; margin-left: 41px; margin-right: 41px; display: flex; justify-content: center;}
-.container2 {padding-left:0; padding-right:0; padding-bottom:1%;padding-top:5%; margin-left: 41px; margin-right: 41px; display: flex; justify-content: center;}
+.container2 {padding-left:0; padding-right:0; padding-bottom:1%; margin-left: 41px; margin-right: 41px; display: flex; justify-content: center;}
+
+.purpose_block1{
+	padding:3%;
+	background-color: black;
+}
+
+.bg-black.text-center.py-5{
+	color: white;
+}
 
 .parallax {
 	background-position:0 0;
