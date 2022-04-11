@@ -41,7 +41,7 @@ html[xmlns] .slides {display: block;}
 /* FlexSlider Default Theme
 *********************************/
 .flexslider {overflow:hidden; position: relative; z-index:2;}
-.flexslider.top_slider {min-height:564px; background-color:white;}
+.flexslider.top_slider {min-height:564px; background-color:white;background-image:url(../images/capa.png);}
 .flexslider.top_slider:before {
 	content:'';
 	position:absolute;
@@ -290,8 +290,8 @@ html[xmlns] .slides {display: block;}
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 }
-.top_slider .col-lg-6 .contents .head-title {margin-bottom:15px; display:inline-block; font-weight:500; line-height:80px; font-size:70px;color:white; display: flex; text-align: center;}
-.top_slider .col-lg-6 .contents .tagp {font-size:15px;color:white; display: flex; text-align: center;}
+.top_slider .contents .head-title {margin-bottom:15px; display:inline-block; font-weight:500; line-height:80px; font-size:70px;color:white; display: flex; text-align: center;justify-content: center;}
+.top_slider .contents .tagp {font-size:15px;color:white; display: flex; text-align: center; justify-content: center;}
 .top_slider .slide1 .flex_caption1 .title3 {margin-bottom:15px; display:inline-block; font-weight:100; line-height:80px; font-size:80px;color:black}
 .top_slider .slide1 .flex_caption1 .title4 {margin-bottom:15px; display:inline-block; width:880px; font-weight:300; line-height:34px; font-size:26px;color:black}
 
