@@ -101,7 +101,6 @@ a:hover, a:focus {text-decoration:none; color:#333;}
 .pad0 {padding:0 !important;}
 .padbot0 {padding-bottom:0 !important;}
 .padbot10 {padding-bottom:10px !important;}
-.padbot20 {padding-bottom:20px !important;}
 .padbot30 {padding-bottom:30px !important;}
 .padbot40 {padding-bottom:40px !important;}
 .padbot50 {padding-bottom:50px !important;}
@@ -109,6 +108,9 @@ a:hover, a:focus {text-decoration:none; color:#333;}
 .padbot70 {padding-bottom:70px !important;}
 .padbot80 {padding-bottom:80px !important;}
 .padtop0 {padding-top:0 !important;}
+
+.row4 h2 {color:white}
+.row4 {width: 50%;}
 
 .overlay {
 	position:absolute;
@@ -121,11 +123,87 @@ a:hover, a:focus {text-decoration:none; color:#333;}
 }
 .relative_block {position:relative; z-index:5;}
 
+.button {
+	font-size: 1em;
+	padding: 10px;
+	color: #fff;
+	border: 2px solid #06D85F;
+	border-radius: 20px/50px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+  }
+  .button:hover {
+	background: #06D85F;
+  }
+  
+  .overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+  }
+  .overlay:target {
+	visibility: visible;
+	opacity: 1;
+  }
+  
+  .popup {
+	margin-top:30%;
+	margin-left: 30%;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	width: 40%;
+	position: relative;
+	transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+	margin-top: 0;
+	color: #333;
+	font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+  }
+  .popup .close:hover {
+	color: #06D85F;
+  }
+  .popup .content {
+	max-height: 30%;
+	overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+	.box{
+	  width: 70%;
+	}
+	.popup{
+	  width: 70%;
+	}
+  }
 
+  .popup2 {padding-top: 15%;}
 
-
-
-
+  .popup2 .btn-active {
+	  overflow: hidden;
+	  width: 40%;
+	  font-size: 20px;
+	  margin: 1%;
+  }
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -174,7 +252,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 
 
 
-
+.row h2 {color:white}
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -410,6 +488,20 @@ header {
 
 #inscricoes .purpose_block {
 	background-image: url("../images/photo-1620912189865-1e8a33da4c5e.png");
+	background-position: center;
+	background-size: cover;
+
+}
+
+#edital .purpose_block {
+	background-image: url("../images/edital.png");
+	background-position: center;
+	background-size: cover;
+
+}
+
+#aprender .purpose_block {
+	background-image: url("../images/aprender.png");
 	background-position: center;
 	background-size: cover;
 
@@ -748,7 +840,7 @@ header {
 	font-weight:300;
 	line-height:50px;
 	font-size:30px;
-	color:#171140;
+	color:white;
 }
 .purpose_block .btn {margin-right:16px;}
 .purpose_block .btn-active {overflow:hidden;}
