@@ -840,6 +840,7 @@ header {
 	line-height:50px;
 	font-size:30px;
 	color:white;
+	margin: 5%;
 }
 .purpose_block .btn {margin-right:16px;}
 .purpose_block .btn-active {overflow:hidden;border-radius: 10px;}
@@ -2041,7 +2042,7 @@ input[type="color"]:focus {
 		padding: 22px;
 	}
 
-	h2 b {line-height:60px; color:white}
+	h2 b {line-height:60px;}
 
 	.sf-js-enabled {display: none;}
 	
@@ -2237,6 +2238,7 @@ input[type="color"]:focus {
 	
 	.respond_clear {clear:both; height:0; font-size:0;}
 
+	.menu_block {max-width: 768px;}
 
 }
 
@@ -2371,6 +2373,8 @@ input[type="color"]:focus {
 	
 	
 	.respond_clear {clear:both; height:0; font-size:0;}
+
+	.menu_block {max-width: 767px;}
 	
 	
 }
@@ -2461,6 +2465,8 @@ input[type="color"]:focus {
 	.col-ss-2 {width: 16.666666666666664%;}
 	.col-ss-1 {width: 8.333333333333332%;}
 
+	.menu_block {max-width: 425px;}
+
 }
 
 @media (max-width: 376px) {
@@ -2483,6 +2489,8 @@ input[type="color"]:focus {
 
 	h2 b {font-size: 24px;}
 
+	.menu_block {max-width: 375px;}
+
 }
 
 @media (max-width: 320px) {
@@ -2497,7 +2505,7 @@ input[type="color"]:focus {
 	.top_slider .col-lg-6 .contents .head-title {font-size: 30px; line-height:60px}
 	.top_slider .col-lg-6 .contents .tagp {font-size: 15px;}
 
-	.purpose_block p {font-size: 14px; margin-left: 4%; margin-right: 4%;}
+	.purpose_block p {font-size: 12px; margin-left: 4%; margin-right: 4%;}
 
 	.cleancode_block {padding-top: 28px; max-height: 560px;}
 
@@ -2509,9 +2517,10 @@ input[type="color"]:focus {
 	.cleancode_block .nav-tabs li {display: flex; justify-content: center;width:80px}
 	.cleancode_block .nav-tabs li a span {font-size: 10px;}
 
-	h2 b {font-size: 16px; display: flex; justify-content: center; line-height: 30px;}
+	h2 b {font-size: 23px; display: flex; justify-content: center; line-height: 30px; padding: 3%;}
 	.purpose_block .container1 .row1 h2 {font-size: 35px;}
 
+	.menu_block {max-width: 320px;}
 }
 
 
