@@ -38,7 +38,7 @@ section {background-color:#fff;}
 
 .contents {padding-top: 2%;}
 
-.container1 {padding-left:0; padding-right:0; padding-bottom:2%;padding-top:2%; margin-left: 41px; margin-right: 41px; display: flex; justify-content: center;}
+.container1 {padding-left:0; padding-right:0; padding-bottom:2%;padding-top:2%; display: flex; justify-content: center;}
 .container2 {padding-left:0; padding-right:0; padding-bottom:1%; margin-left: 41px; margin-right: 41px; display: flex; justify-content: center;}
 
 .purpose_block1{
@@ -110,7 +110,7 @@ a:hover, a:focus {text-decoration:none; color:#333;}
 .padtop0 {padding-top:0 !important;}
 
 .row4 h2 {color:white}
-.row4 {width: 50%;}
+.row4 {width: 100%;padding: 3%;}
 
 .overlay {
 	position:absolute;
@@ -196,8 +196,6 @@ a:hover, a:focus {text-decoration:none; color:#333;}
 	}
   }
 
-  .popup2 {padding-top: 15%;}
-
   .popup2 .btn-active {
 	  overflow: hidden;
 	  width: 40%;
@@ -277,7 +275,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 }
 .btn:focus, .btn:hover {color:#333; border-color:#333;}
 
-.contents .btn-active {font-size: 35px;background-color:white; color:#171140; border-color:white;width: 20%; display:flex;justify-content: center;margin-left: 40%;}
+.contents .btn-active {font-size: 35px;background-color:white; color:#171140; border-color:white; display:flex;justify-content: center;}
 .contents .btn-active:hover {color:#171140;}
 
 .btn-active {background-color:#fff; color:#171140; border-color:#fff;}
@@ -541,7 +539,7 @@ header {
   
   .time h2 {
 	margin: 0 0 5px;
-	font-size: 33px;
+	font-size: 50px;
   }
   
   @media (max-width: 500px) {
@@ -700,13 +698,13 @@ header {
 	color:#fff;
 }
 .cleancode_block p.title1 b {font-weight:500;}
-.cleancode_block p.title b {font-weight:200;}
+.cleancode_block p.title b {font-weight:200; color: white;}
 
 .cleancode_block span {
 	font-weight:300;
 	line-height:34px;
 	font-size:26px;
-	color:#999;
+	color:white;
 }
 .cleancode_block .tab-pane {
 	display:block;
@@ -2038,6 +2036,33 @@ input[type="color"]:focus {
 
 @media (max-width: 1024px) {
 
+	.countdown{
+		padding: 22px;
+	}
+
+	h2 b {line-height:60px; color:white}
+
+	.sf-js-enabled {display: none;}
+	
+	img{
+		max-width:45%;
+	}
+
+	.intro-img{
+		display: flex;
+		justify-content: center;
+	}
+
+	.time h2 {
+		margin: 0 0 5px;
+		font-size: 40px;
+	  }
+
+	.cleancode_block p.title1 b {font-size: 80%; line-height: 15%;}
+
+	h3 b {font-size: 100%;}
+
+	.top_slider .contents .purpose_block {padding:0 0 5%; text-align: center;}
 	
 }
 
@@ -2115,6 +2140,13 @@ input[type="color"]:focus {
 @media (min-width: 768px) and (max-width: 991px) {
 	.logo a {font-size:22px;}
 	
+	.countdown{
+		padding: 15px;
+	}
+
+	img {max-width: 70%;}
+
+	h2 {font-size: 50px}
 	
 	#search-form input:focus {width:42px;}
 	
@@ -2137,7 +2169,7 @@ input[type="color"]:focus {
 	
 	.purpose_block {padding-top:35px;}
 	.purpose_block .ipad_img1 {margin-top:-50px;}
-	.purpose_block p {font-size:12px; line-height:20px;}
+	.purpose_block p {font-size:20px; line-height:20px;}
 	
 	
 	.work_item a.zoom {width:40px; height:24px; margin-left:-20px;}
@@ -2221,9 +2253,6 @@ input[type="color"]:focus {
 	
 	
 /* __________ Menu __________ */
-	a.menu_toggler {display:inline-block; float:right; margin: 20px 0 0 20px; width:40px; height:40px; text-align:center; line-height:38px; font-size:23px; color:#fff; background-color:#333;}
-	a.menu_toggler:hover {background-color:#333;}
-	
 	.navmenu {position:absolute; left:0; right:0; top:80px; background-color:#fff;}
 	.navmenu ul {padding:10px 0;}
 	.navmenu ul li {display:block; text-align:left;}
@@ -2347,11 +2376,34 @@ input[type="color"]:focus {
 
 @media (max-width: 479px) {
 
+	.logo {display: none;}
+
 	#search-form {display:none;}
+
+	#feature {display: none;}
+
+	.navmenu ul {display: none;}
+
+	.time h2 {
+		font-size: 30px;
+		margin: 0;
+	  }
+
+	  .top_slider .contents .head-title {font-size: 60px;}
+	
+	  .top_slider .col-lg-6 .contents .head-title {font-size:40px}
+	  .top_slider .col-lg-6 .contents .tagp {font-size: 20px;}
+	  img{max-width: 80%;}
+	  h2 b {font-size: 50%;}
+	  .purpose_block p {font-size: 16px;}
+	  .cleancode_block p.title1 b {font-size: 50px;}
+	  .purpose_block .container1 .row1 h2 {font-size: 40px;}
 	
 	
 /* __________ Index __________ */
-	h2 {font-size:26px; line-height:26px;}
+	h2 {font-size:50px; line-height:26px;}
+
+	.row3 .service-item p {font-size: 15px;}
 	
 	
 	.purpose_block .btn {padding:10px; margin:10px 5px 0 0;}
@@ -2407,6 +2459,54 @@ input[type="color"]:focus {
 	.col-ss-1 {width: 8.333333333333332%;}
 
 }
+
+@media (max-width: 376px) {
+	.contents {padding-top: 25%;}
+	.logo a {font-size: 16px;}
+	.time h2 {font-size: 30px;}
+	.top_slider .col-lg-6 .contents .head-title {font-size: 35px; line-height:60px}
+	.top_slider .col-lg-6 .contents .tagp {font-size: 15px;}
+
+	.top_slider .contents .head-title {font-size: 40px;}
+	.cleancode_block p.title1 b {font-size: 40px;}
+
+	.purpose_block p {font-size: 14px; margin-left: 2%; margin-right: 2%;}
+
+	.cleancode_block .nav-tabs {display: flex; justify-content: center;}
+	.cleancode_block .nav-tabs li {display: flex; justify-content: center;width:80px}
+	.cleancode_block .nav-tabs li a span {font-size: 12px;}
+
+	h2 b {font-size: 24px;}
+
+}
+
+@media (max-width: 320px) {
+	.contents {padding-top: 25%;}
+	.logo a {font-size: 16px;}
+	.time h2 {font-size: 30px;}
+
+	img {max-width: 100%;}
+
+	.top_slider .col-lg-6 .contents .head-title {font-size: 30px; line-height:60px}
+	.top_slider .col-lg-6 .contents .tagp {font-size: 15px;}
+
+	.purpose_block p {font-size: 14px; margin-left: 4%; margin-right: 4%;}
+
+	.cleancode_block {padding-top: 28px;}
+
+	.cleancode_block p.title1 b {font-size: 40px;}
+
+	.cleancode_block .nav-tabs li a {width:70px}
+
+	.cleancode_block .nav-tabs {display: flex; justify-content: center;}
+	.cleancode_block .nav-tabs li {display: flex; justify-content: center;width:80px}
+	.cleancode_block .nav-tabs li a span {font-size: 10px;}
+
+	h2 b {font-size: 16px; display: flex; justify-content: center; line-height: 30px;}
+	.purpose_block .container1 .row1 h2 {font-size: 35px;}
+
+}
+
 
 
 
