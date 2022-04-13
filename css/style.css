@@ -535,6 +535,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding-left: 1%;
   }
   
   .time h2 {
@@ -841,7 +842,7 @@ header {
 	color:white;
 }
 .purpose_block .btn {margin-right:16px;}
-.purpose_block .btn-active {overflow:hidden;}
+.purpose_block .btn-active {overflow:hidden;border-radius: 10px;}
 .purpose_block .btn-active span:before {
 	content: attr(data-hover);
 	font-size: 40px;
@@ -874,7 +875,7 @@ header {
 	transform: translateY(-100%);
 }
 
-.contents .btn-active {overflow:hidden;}
+.contents .btn-active {overflow:hidden;border-radius: 10px;}
 .contents .btn-active span:before {
 	content: attr(data-hover);
 	font-size: 40px;
@@ -2400,6 +2401,8 @@ input[type="color"]:focus {
 	  .purpose_block .container1 .row1 h2 {font-size: 40px;}
 	
 	  .popup {margin-top:90%; margin-left:15%}
+
+	  .cleancode_block { max-height: 620px;}
 /* __________ Index __________ */
 	h2 {font-size:50px; line-height:26px;}
 
@@ -2476,6 +2479,8 @@ input[type="color"]:focus {
 	.cleancode_block .nav-tabs li {display: flex; justify-content: center;width:80px}
 	.cleancode_block .nav-tabs li a span {font-size: 12px;}
 
+	.cleancode_block { max-height: 620px;}
+
 	h2 b {font-size: 24px;}
 
 }
@@ -2494,7 +2499,7 @@ input[type="color"]:focus {
 
 	.purpose_block p {font-size: 14px; margin-left: 4%; margin-right: 4%;}
 
-	.cleancode_block {padding-top: 28px;}
+	.cleancode_block {padding-top: 28px; max-height: 560px;}
 
 	.cleancode_block p.title1 b {font-size: 40px;}
 
