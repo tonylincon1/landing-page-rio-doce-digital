@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	
+	<meta charset="utf-8">
+	<title>Inscrição</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/loader.css" rel="stylesheet" type="text/css">
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/styleform.css" rel="stylesheet" type="text/css" />
+    
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+    
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script src="js/validatform.js"></script>
+	<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+		
+	</script>
+	
+</head>
+<body>
+
+
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<header>
+			
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					
+					<!-- LOGO -->
+					<div class="logo pull-left">
+						<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>
+					</div><!-- //LOGO -->
+
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="scroll_btn"><a href="index.html" >O programa</a></li>
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+					<div id="countdown" class="countdown">
+						<div class="time">
+						<h2 id="days">00</h2>
+						<small>Dias</small>
+						</div>
+						<div class="time">
+						<h2 id="hours">00</h2>
+						<small>Horas</small>
+						</div>
+						<div class="time">
+						<h2 id="minutes">00</h2>
+						<small>Minutos</small>
+						</div>
+						<div class="time">
+						<h2 id="seconds">00</h2>
+						<small>Segundos</small>
+						</div>
+					</div>
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+
+		<!-- HOME -->
+		<section id="home" class="padbot0">
+				
+			<!-- TOP SLIDER -->
+			<div class="forms">
+				<div class="texto">
+					<h2>Você está perto de garantir sua transformação digital!</h2>
+					<h2>Animadx para iniciar essa jornada?</h2>
+				</div>
+				<div class="content">
+					<form name="form" id="Página1">
+					  <h2>Formulário de Inscrição</h2>
+
+					  <input id="Nome-Completo" name="Nome-Completo" type="text" placeholder="Nome Completo">
+					  <span class='msg-erro msg-nome'></span>
+
+					  <input id="CPF" name="CPF" type="text" placeholder="CPF">
+					  <span class='msg-erro msg-documento'></span>
+
+					  <input id="Idade" name="Idade" type="number" placeholder="Idade">
+					  <span class='msg-erro msg-idade'></span>
+				
+					  <input id="E-mail" name="E-mail" type="text" placeholder="E-mail">
+					  <span class='msg-erro msg-email'></span>
+				
+					  <select id="Estado" name="Estado" placeholder="Estado">
+						<option value="">Estado</option>
+						<option value="AC">AC</option>
+						<option value="AL">AL</option>
+						<option value="AP">AP</option>
+						<option value="AM">AM</option>
+						<option value="BA">BA</option>
+						<option value="CE">CE</option>
+						<option value="DF">DF</option>
+						<option value="ES">ES</option>
+						<option value="GO">GO</option>
+						<option value="MA">MA</option>
+						<option value="MT">MT</option>
+						<option value="MS">MS</option>
+						<option value="MG">MG</option>
+						<option value="PA">PA</option>
+						<option value="PB">PB</option>
+						<option value="PR">PR</option>
+						<option value="PE">PE</option>
+						<option value="PI">PI</option>
+						<option value="RJ">RJ</option>
+						<option value="RN">RN</option>
+						<option value="RS">RS</option>
+						<option value="RO">RO</option>
+						<option value="RR">RR</option>
+						<option value="SC">SC</option>
+						<option value="SP">SP</option>
+						<option value="SE">SE</option>
+						<option value="TO">TO</option>
+					  </select>
+					  <span class='msg-erro msg-estado'></span>
+
+					  <input id="Cidade" name="Cidade" type="text" placeholder="Cidade">
+					  <span class='msg-erro msg-cidade'></span>
+
+					  <select id="Escolaridade" name="Escolaridade" placeholder="Escolaridade">
+						<option value="">Escolaridade</option>
+						<option value="Ensino Fundamental Incompleto">Ensino Fundamental Incompleto</option>
+						<option value="Ensino Fundamental Completo">Ensino Fundamental Completo</option>
+						<option value="Ensino Médio Incompleto">Ensino Médio Incompleto</option>
+						<option value="Ensino Médio Completo">Ensino Médio Completo</option>
+						<option value="Graduação Incompleta">Graduação Incompleta</option>
+						<option value="Graduação Completa">Graduação Completa</option>
+						<option value="Pós Graduação Completa">Pós Graduação Completa</option>
+					  </select>
+					  <span class='msg-erro msg-escolaridade'></span>
+
+					  <select id="Estuda" name="Estuda" placeholder="Estuda?">
+						<option value="">Estuda?</option>
+						<option value="Sim">Sim</option>
+						<option value="Não">Não</option>
+					  </select>
+					  <span class='msg-erro msg-estuda'></span>
+
+					  <select id="Turno" name="Turno" placeholder="Turno">
+						<option value="">Turno</option>
+						<option value="Matutino">Matutino</option>
+						<option value="Vespertino">Vespertino</option>
+						<option value="Noturno">Noturno</option>
+					  </select>
+					  <span class='msg-erro msg-turno'></span>
+
+					  <select id="Trabalha?" name="Trabalha?" placeholder="Trabalha Atualmente?">
+						<option value="">Trabalha Atualmente?</option>
+						<option value="Sim">Sim</option>
+						<option value="Não">Não</option>
+					  </select>
+					  <span class='msg-erro msg-trabalha'></span>
+				  
+					  <input class="btn btn-active" type="submit" value="Enviar">
+					  <span class='msg-erro msg-envio'></span>
+					</form>
+
+			</div>
+		</section><!-- //HOME -->
+
+	</div><!-- //PAGE -->
+	<!-- Footer-->
+	<section id="rodape">
+		<div class="purpose_block1">
+			<div class="bg-black text-center py-5">
+				<div class="container px-5">
+					<div class="text-white-50 small">
+						<div class="mb-2">Adicionar parceiros</div>
+						<div class="mb-2">&copy; Todos os direitos reservados ao IEBT, 2022.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- //TEAM -->
+
+	<!-- Feedback Modal-->
+
+	
+
+</div>
+
+<script src="js/countdownHeader.js"></script>
+<script src="js/validatform.js"></script>
+</body>
+</html>

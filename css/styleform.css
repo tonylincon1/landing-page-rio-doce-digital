@@ -1,0 +1,192 @@
+.content {width: 50%; background-color: #171140; border-radius: 4%;}
+
+form#Página1 {margin: 4%;}
+
+.containerforms{padding-top:8%;text-align: center;width:50%}
+
+.forms h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.forms p {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.texto {
+    width: 50%;
+    padding: 1%;
+}
+
+.forms {display: flex; justify-content: right; padding-right: 2%; padding-left: 2%; padding-bottom: 10%; padding-top: 5%;
+    background-image: url("../images/inscricao.png"); background-repeat: repeat-y;}
+
+.msg-erro{
+    color: white; 
+    margin-bottom: 4%;
+}
+
+
+/* Formulário */
+
+#Página1 h2 {
+    color: white;
+    font-size: 45px;
+}
+
+input::placeholder {
+    color: #171140;
+  }
+
+input#Nome-Completo {
+    background-color: white;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+input#CPF {
+    background-color: white;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+input#Idade {
+    padding: 10px 8px;
+    color: #171140;
+    border: 2px solid #171140;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+input#E-mail {
+    background-color: white;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+select#Estado {
+    width: 100%;
+    padding: 10px 8px;
+    color: #171140;
+    border: 2px solid #171140;
+    text-align: left;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+input#Cidade {
+    background-color: white;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+select#Escolaridade {
+    width: 100%;
+    padding: 10px 8px;
+    color: #171140;
+    border: 2px solid #171140;
+    text-align: left;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+select#Estuda {
+    width: 100%;
+    padding: 10px 8px;
+    color: #171140;
+    border: 2px solid #171140;
+    text-align: left;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+select#Turno {
+    width: 100%;
+    padding: 10px 8px;
+    color: #171140;
+    border: 2px solid #171140;
+    text-align: left;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+select#Trabalha\? {
+    padding: 10px 8px;
+    color: #171140;
+    border: 2px solid #171140;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+input[type="submit"] {
+    background-color: white;
+    color: black;
+    font-size: 100%;
+    border-radius: 1rem;
+}
+
+span.msg-erro.msg-envio {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Formulário */
+
+@media (max-width: 1024px) {
+
+    .forms h2 {
+        font-size: 40px;
+    }
+
+ }
+
+
+@media (max-width: 768px) {
+
+    .forms h2 {
+        font-size: 30px;
+    }
+
+ }
+
+@media (max-width: 479px) {
+    #Página1 h2 {
+        font-size: 30px;
+    }
+
+    .texto {
+        display: none;
+    }
+
+    .content {
+    top: 0;
+    right: 0;
+    width: 100%;
+    border-radius:0%;
+}
+
+    .btn-active:hover {color: #171140;}
+
+    #home {
+        background-image: url("../images/inscricao.png"); background-repeat: repeat-y;
+    }
+
+ }
+
+
+@media (max-width: 376px) {
+
+ }
+
+@media (max-width: 320px) { 
+
+}
