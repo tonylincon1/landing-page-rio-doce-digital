@@ -11,6 +11,9 @@ var form = document.getElementById('Página1');
         var estuda = document.getElementById('Estuda');
         var turno = document.getElementById('Turno');
         var trabalha = document.getElementById('Trabalha?');
+        var necessidades = document.getElementById('Necessidades-especiais?');
+        var publico = document.getElementById('Publico-de-Reassentamento?');
+        var interesse = document.getElementById('Interesse');
         var contErro = 0;
      
      
@@ -43,10 +46,10 @@ var form = document.getElementById('Página1');
         /* idade */
         function verificaIdade (tagErro,tagCampo){
             caixa = document.querySelector(tagErro);
-            if(tagCampo.value >= 18){
+            if(tagCampo.value >= 18 & tagCampo.value <= 29){
                 caixa.style.display = 'none';
             }else{
-                caixa.innerHTML = "*É preciso ser maior que 18 anos para se inscrever";
+                caixa.innerHTML = "*É preciso ter entre 18 e 29 anos para se inscrever";
                 caixa.style.display = 'block';
                 contErro += 1;
             }
@@ -64,6 +67,9 @@ var form = document.getElementById('Página1');
         required('.msg-estuda',estuda,"Estuda")
         required('.msg-turno',turno,"Turno")
         required('.msg-trabalha',trabalha,"Trabalha Atualmente?")
+        required('.msg-necessidades',necessidades,"Necessidades Especiais")
+        required('.msg-publico',publico,"Público de Reassentamento?")
+        required('.msg-interesse',interesse,"Interesse no programa")
         
     
     

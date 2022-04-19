@@ -41,7 +41,24 @@ form#Página1 {margin: 4%;}
 
 input::placeholder {
     color: #171140;
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+    font-family:inherit;
   }
+
+select::placeholder {
+color: #171140;
+font-size: 15px;
+font-family:'Roboto', sans-serif;
+font-family:inherit;
+}
+
+textarea::placeholder {
+    color: #171140;
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+    font-family:inherit;
+    }
 
 input#Nome-Completo {
     background-color: white;
@@ -122,6 +139,43 @@ select#Trabalha\? {
     color: #171140;
     border: 2px solid #171140;
     width: 100%;
+    text-align: left;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+select#Necessidades-especiais\? {
+    width: 100%;
+    padding: 10px 8px;
+    color: #171140;
+    border: 2px solid #171140;
+    text-align: left;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+input#Se-sim-escreva-aqui {
+    background-color: white;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+select#Publico-de-Reassentamento\? {
+    width: 100%;
+    padding: 10px 8px;
+    color: #171140;
+    border: 2px solid #171140;
+    text-align: left;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
+textarea#Interesse {
+    width: 100%;
+    padding: 10px 8px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
