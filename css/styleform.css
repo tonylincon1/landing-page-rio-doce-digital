@@ -43,15 +43,13 @@ input::placeholder {
     color: #171140;
     font-size: 15px;
     font-family:'Roboto', sans-serif;
-    font-family:inherit;
   }
 
 select::placeholder {
-color: #171140;
-font-size: 15px;
-font-family:'Roboto', sans-serif;
-font-family:inherit;
-}
+    color: #171140;
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+    }
 
 textarea::placeholder {
     color: #171140;
@@ -91,6 +89,7 @@ input#E-mail {
 select#Estado {
     width: 100%;
     padding: 10px 8px;
+    font-size: 15px;
     color: #171140;
     border: 2px solid #171140;
     text-align: left;
@@ -107,6 +106,7 @@ input#Cidade {
 select#Escolaridade {
     width: 100%;
     padding: 10px 8px;
+    font-size: 15px;
     color: #171140;
     border: 2px solid #171140;
     text-align: left;
@@ -117,6 +117,7 @@ select#Escolaridade {
 select#Estuda {
     width: 100%;
     padding: 10px 8px;
+    font-size: 15px;
     color: #171140;
     border: 2px solid #171140;
     text-align: left;
@@ -127,6 +128,7 @@ select#Estuda {
 select#Turno {
     width: 100%;
     padding: 10px 8px;
+    font-size: 15px;
     color: #171140;
     border: 2px solid #171140;
     text-align: left;
@@ -137,6 +139,7 @@ select#Turno {
 select#Trabalha\? {
     padding: 10px 8px;
     color: #171140;
+    font-size: 15px;
     border: 2px solid #171140;
     width: 100%;
     text-align: left;
@@ -147,6 +150,7 @@ select#Trabalha\? {
 select#Necessidades-especiais\? {
     width: 100%;
     padding: 10px 8px;
+    font-size: 15px;
     color: #171140;
     border: 2px solid #171140;
     text-align: left;
@@ -163,6 +167,7 @@ input#Se-sim-escreva-aqui {
 select#Publico-de-Reassentamento\? {
     width: 100%;
     padding: 10px 8px;
+    font-size: 15px;
     color: #171140;
     border: 2px solid #171140;
     text-align: left;
@@ -174,8 +179,9 @@ textarea#Interesse {
     width: 100%;
     padding: 10px 8px;
     background-color: white;
-    color: black;
-    border: 2px solid black;
+    font-size: 15px;
+    color: #171140;
+    border: 2px solid #171140;
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
