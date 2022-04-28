@@ -80,7 +80,7 @@ var form = document.getElementById('Página1');
         else {
             form.addEventListener("submit", e => {
                 e.preventDefault();
-                fetch("https://sheetdb.io/api/v1/blsvzkid4oho4", {
+                fetch("https://sheetdb.io/api/v1/t3cvu8k1w0df4", {
                     method : "POST",
                     body: new FormData(document.getElementById("Página1")),
                 }).then(
