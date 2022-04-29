@@ -110,7 +110,7 @@ a:hover, a:focus {text-decoration:none; color:#333;}
 .padtop0 {padding-top:0 !important;}
 
 .row4 h2 {color:white}
-.row4 {width: 100%;padding: 3%;}
+.row4 {width: 100%;padding: 1%;}
 
 .overlay {
 	position:absolute;
@@ -154,19 +154,19 @@ a:hover, a:focus {text-decoration:none; color:#333;}
   }
   
   .popup {
-	margin-top:30%;
-	margin-left: 30%;
-	padding: 20px;
-	background: #fff;
-	border-radius: 5px;
-	width: 40%;
-	position: relative;
-	transition: all 5s ease-in-out;
-  }
+    margin-top: 10%;
+    margin-left: 15%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 70%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
   
   .popup h2 {
 	margin-top: 0;
-	color: #333;
+	color: #171140;
 	font-family: Tahoma, Arial, sans-serif;
   }
   .popup .close {
@@ -201,6 +201,7 @@ a:hover, a:focus {text-decoration:none; color:#333;}
 	  width: 40%;
 	  font-size: 20px;
 	  margin: 1%;
+	  white-space: pre-wrap;
   }
 
 
@@ -216,10 +217,7 @@ p {margin:0 0 20px;}
 
 
 h1, h2, h3, h4, h5, h6 {
-	margin-top:0;
 	font-family: 'Roboto', sans-serif;
-	text-transform:none;
-	font-weight:300;
 	color:#333;
 }
 h1 {margin:0 0 26px; line-height:46px; font-size:46px;}
@@ -227,9 +225,9 @@ h2 {margin:0 0 26px; line-height:50px; font-size:60px; color:#171140}
 h2 b {font-weight:500;}
 h3 {margin:0 0 21px; line-height:25px; font-size:22px;}
 h3 b {font-weight:900;font-size:30px; color:white}
-h4 {margin:0 0 34px; line-height:25px; font-size:20px;}
+h4 {line-height:25px; font-size:20px; color: white;}
 h4 b {font-weight:500;}
-h5 {margin:0 0 15px; line-height:20px; font-size:15px;}
+h5 {font-size:80%; display: flex; justify-content: center; text-align: center;}
 h6 {margin:0 0 15px; line-height:20px; font-size:12px;}
 
 .center {text-align:center;}
@@ -702,7 +700,6 @@ header {
 .cleancode_block p.title b {font-weight:200; color: white;}
 
 .cleancode_block span {
-	font-weight:300;
 	line-height:34px;
 	font-size:26px;
 	color:white;
@@ -835,12 +832,31 @@ header {
 .purpose_block {padding:5% 0 5%; text-align: center;}
 
 .purpose_block p {
-	margin-bottom:30px;
-	font-weight:300;
-	line-height:50px;
-	font-size:30px;
-	color:white;
-	margin: 5%;
+	margin-bottom: 30px;
+    font-weight: 300;
+    line-height: 50px;
+    font-size: 30px;
+    color: white;
+	margin-left: 5%;
+    margin-right: 5%;
+}
+
+.purpose_block .content p {
+    margin-bottom: 30px;
+    font-weight: 300;
+    line-height: 50px;
+    font-size: 30px;
+    color: #171140;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.purpose_block .panel p {
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 12%;
+    margin-right: 12%;
+	color: #171140;
 }
 .purpose_block .btn {margin-right:16px;}
 .purpose_block .btn-active {overflow:hidden;border-radius: 10px;}
@@ -867,6 +883,7 @@ header {
 	display: inline-block;
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
+	color:#171140;
 }
 .purpose_block .btn-active:hover span,
 .purpose_block .btn-active:focus span {
@@ -924,6 +941,8 @@ button.accordion {
     outline: none;
     transition: 0.4s;
 	font-size: 20px;
+	border-radius: 10px;
+	margin-bottom: 0.5%;
 }
 
 button.accordion.active, button.accordion:hover {
@@ -951,7 +970,7 @@ div.panel {
 
 div.panel.show {
     opacity: 1;
-    max-height: 500px;
+    max-height: 100%;
 }
 
 #feature {
@@ -2065,6 +2084,10 @@ input[type="color"]:focus {
 	h3 b {font-size: 100%;}
 
 	.top_slider .contents .purpose_block {padding:0 0 5%; text-align: center;}
+
+	h5 {
+		font-size: 60%;
+	}
 	
 }
 
@@ -2240,6 +2263,28 @@ input[type="color"]:focus {
 
 	.menu_block {max-width: 768px;}
 
+	.row2 {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	h5 {
+		font-size: 50%;
+	}
+
+	.popup {
+		margin-top: 12%;
+	}
+
+	.purpose_block .container1 .popup2 h2 {
+		font-size: 40px;
+	}
+
+	.purpose_block .container1 .popup2 p {
+		font-size: 20px;
+		line-height: 100%;
+	}
+
 }
 
 @media (max-width: 767px) {
@@ -2375,6 +2420,28 @@ input[type="color"]:focus {
 	.respond_clear {clear:both; height:0; font-size:0;}
 
 	.menu_block {max-width: 767px;}
+
+	.row2 {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	h5 {
+		font-size: 50%;
+	}
+
+	.popup {
+		margin-top: 12%;
+	}
+
+	.purpose_block .container1 .popup2 h2 {
+		font-size: 40px;
+	}
+
+	.purpose_block .container1 .popup2 p {
+		font-size: 20px;
+		line-height: 100%;
+	}
 	
 	
 }
@@ -2413,7 +2480,7 @@ input[type="color"]:focus {
 	.row3 .service-item p {font-size: 15px;}
 	
 	
-	.purpose_block .btn {padding:10px; margin:10px 5px 0 0;}
+	.purpose_block .btn {padding:10px; margin:10px 0px 5px 5px;}
 	
 	
 	.cleancode_block p.title {font-size:26px; line-height:26px;}
@@ -2467,6 +2534,36 @@ input[type="color"]:focus {
 
 	.menu_block {max-width: 425px;}
 
+	.cleancode_block {
+		max-height: 780px;
+	}
+
+	.purpose_block {
+		padding-top: 0px;
+	}
+
+	button.accordion {
+		font-size: 15px;
+	}
+
+	.purpose_block .panel p {
+		font-size: 15px;
+	}
+
+	.popup {
+		margin-top: 20%;
+		margin-left: 10%;
+		width: 80%;
+	}
+
+	.purpose_block .container1 .popup2 h2 {
+		font-size: 30px;
+	}
+
+	.purpose_block .container1 .popup2 p {
+		font-size: 15px;
+	}
+
 }
 
 @media (max-width: 376px) {
@@ -2479,17 +2576,27 @@ input[type="color"]:focus {
 	.top_slider .contents .head-title {font-size: 40px;}
 	.cleancode_block p.title1 b {font-size: 40px;}
 
-	.purpose_block p {font-size: 14px; margin-left: 2%; margin-right: 2%;}
+	.purpose_block p {font-size: 14px; margin-left: 7%; margin-right: 7%;}
 
 	.cleancode_block .nav-tabs {display: flex; justify-content: center;}
 	.cleancode_block .nav-tabs li {display: flex; justify-content: center;width:80px}
 	.cleancode_block .nav-tabs li a span {font-size: 12px;}
 
-	.cleancode_block { max-height: 620px;}
+	h2 b {font-size: 20px;}
 
-	h2 b {font-size: 24px;}
+	h2 b {
+		 line-height: 0px;
+	}
 
 	.menu_block {max-width: 375px;}
+
+	.purpose_block .container1 .popup2 p {
+		font-size: 12px;
+	}
+
+	.popup {
+		margin-top: 30%;
+	}
 
 }
 
@@ -2505,9 +2612,9 @@ input[type="color"]:focus {
 	.top_slider .col-lg-6 .contents .head-title {font-size: 30px; line-height:60px}
 	.top_slider .col-lg-6 .contents .tagp {font-size: 15px;}
 
-	.purpose_block p {font-size: 12px; margin-left: 4%; margin-right: 4%;}
+	.purpose_block p {font-size: 12px;}
 
-	.cleancode_block {padding-top: 28px; max-height: 560px;}
+	.cleancode_block {padding-top: 28px;}
 
 	.cleancode_block p.title1 b {font-size: 40px;}
 
