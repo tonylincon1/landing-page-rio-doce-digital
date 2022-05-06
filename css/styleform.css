@@ -44,6 +44,7 @@ form#Página1 {margin: 4%;}
 #Página1 h2 {
     color: #1C0A94;
     font-size: 45px;
+    text-align: center;
 }
 
 form#Página1 {
@@ -54,20 +55,19 @@ form#Página1 {
 input::placeholder {
     color: #1C0A94;
     font-size: 15px;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Baloo Bhai 2', cursive;
   }
 
 select::placeholder {
     color: #1C0A94;
     font-size: 15px;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Baloo Bhai 2', cursive;
     }
 
 textarea::placeholder {
     color: #1C0A94;
     font-size: 15px;
-    font-family:'Roboto', sans-serif;
-    font-family:inherit;
+    font-family: 'Baloo Bhai 2', cursive;
     }
 
 input#Nome-Completo {
@@ -110,6 +110,7 @@ select#Estado {
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 
 input#Cidade {
@@ -128,6 +129,7 @@ select#Escolaridade {
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 
 select#Estuda {
@@ -139,6 +141,7 @@ select#Estuda {
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 
 select#Turno {
@@ -150,6 +153,7 @@ select#Turno {
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 
 select#Trabalha\? {
@@ -161,6 +165,7 @@ select#Trabalha\? {
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 
 select#Necessidades-especiais\? {
@@ -172,6 +177,7 @@ select#Necessidades-especiais\? {
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 
 input#Se-sim-escreva-aqui {
@@ -190,6 +196,7 @@ select#Publico-de-Reassentamento\? {
     text-align: left;
     margin-bottom: 1%;
     border-radius: 1rem;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 
 textarea#Interesse {
@@ -210,6 +217,8 @@ input[type="submit"] {
     color: #1C0A94;
     font-size: 25px;
     border-radius: 1rem;
+    font-family: 'Poppins', sans-serif;
+	font-weight: 800;
 }
 
 span.msg-erro.msg-envio {
