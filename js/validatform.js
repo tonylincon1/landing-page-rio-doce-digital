@@ -58,13 +58,13 @@ var form = document.getElementById('Página1');
 
         /* Validalink */
         function validlink (tagErro,tagCampo){
-            filter = /https:\/\/drive\.google\.com\/file\/d\/(.*?)\/.*?\?usp=sharing/;
+            filter = /https:*/;
             caixa = document.querySelector(tagErro);
             if (filter.test(tagCampo.value)) {
                 caixa.style.display = 'none';
             }
             else{
-                caixa.innerHTML = "*Por favor, gere um link de compartilhamento no google drive do seu questionário de deligência (Basta apenas importar o arquivo no google drive e gerar um link compartilhado)";
+                caixa.innerHTML = "*Por favor, adicione o link do seu questionário de deligência para termos acesso (Exemplo: https:meulink.com.br)";
                 caixa.style.display = 'block';
                 contErro += 1;
             }

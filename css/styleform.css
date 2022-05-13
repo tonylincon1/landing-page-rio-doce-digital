@@ -277,6 +277,10 @@ span.msg-erro.msg-envio {
         font-size: 30px;
     }
 
+    .popupforms {
+        margin-top: 15%;
+    }
+
  }
 
 @media (max-width: 479px) {
@@ -305,6 +309,10 @@ span.msg-erro.msg-envio {
         color: #1C0A94;
         margin-bottom: 4%;
         font-size: 15px;
+    }
+
+    .popupforms {
+        margin-top: 35%;
     }
 
  }
