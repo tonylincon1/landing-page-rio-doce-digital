@@ -211,6 +211,31 @@ textarea#Interesse {
     border-radius: 1rem;
 }
 
+input#LinkQuetionario {
+    background-color: white;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+    color: #1C0A94;
+    border: 2px solid #1C0A94;
+}
+
+label {
+    color: #1C0A94;
+    font-size: 15px
+}
+
+label a {
+    color: #00baa7;
+}
+
+input {
+    -webkit-appearance: auto;
+}
+
+.Politicadiv {
+    margin-bottom: 1%;
+}
+
 input[type="submit"] {
     background-color: #1CFFD1;
     border-color: #1CFFD1;

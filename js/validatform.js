@@ -14,6 +14,7 @@ var form = document.getElementById('Página1');
         var necessidades = document.getElementById('Necessidades-especiais?');
         var publico = document.getElementById('Publico-de-Reassentamento?');
         var interesse = document.getElementById('Interesse');
+        var LinkQuetionario = document.getElementById('LinkQuetionario');
         var contErro = 0;
      
      
@@ -54,6 +55,20 @@ var form = document.getElementById('Página1');
                 contErro += 1;
             }
             }
+
+        /* Validalink */
+        function validlink (tagErro,tagCampo){
+            filter = /https:\/\/drive\.google\.com\/file\/d\/(.*?)\/.*?\?usp=sharing/;
+            caixa = document.querySelector(tagErro);
+            if (filter.test(tagCampo.value)) {
+                caixa.style.display = 'none';
+            }
+            else{
+                caixa.innerHTML = "*Por favor, gere um link de compartilhamento no google drive do seu questionário de deligência (Basta apenas importar o arquivo no google drive e gerar um link compartilhado)";
+                caixa.style.display = 'block';
+                contErro += 1;
+            }
+            }
     
         required('.msg-nome',nome,"Nome")
         required('.msg-documento',cpf,"CPF")
@@ -70,6 +85,8 @@ var form = document.getElementById('Página1');
         required('.msg-necessidades',necessidades,"Necessidades Especiais")
         required('.msg-publico',publico,"Público de Reassentamento?")
         required('.msg-interesse',interesse,"Interesse no programa")
+        required('.msg-questionario',interesse,"Link do Questionário")
+        validlink('.msg-questionario',LinkQuetionario)
         
     
     

@@ -12,7 +12,6 @@
     
 	<!-- CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="css/loader.css" rel="stylesheet" type="text/css">
 	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
 	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
@@ -244,6 +243,24 @@
 
 					  <textarea id="Interesse" name="Interesse" placeholder="Escreva sobre seu interesse no programa"></textarea>
 					  <span class='msg-erro msg-interesse'></span>
+
+					  <input type="text" class="LinkQuetionario" id="LinkQuetionario" placeholder="*Link do PDF do Questionário de Deligência no Google Drive">
+					  <span class='msg-erro msg-questionario'></span>
+
+					  <div class="Politicadiv">
+						<input type="checkbox" id="Politica" name="Politica" value="Aceito a Política de Privacidade e Proteção de Dados" required>
+						<label for="Politica">Li e concordo com a <a href="#popuppolitica">política de privacidade e proteção de dados</a></label>
+							<div id="popuppolitica" class="overlay1">
+								<div class="popupforms">
+									<a class="close" href="#LinkQuetionario">&times;</a>
+									<img class = "logo" src="images/politica/1.png" alt="">
+									<img class = "logo" src="images/politica/2.png" alt="">
+									<img class = "logo" src="images/politica/3.png" alt="">
+									<img class = "logo" src="images/politica/4.png" alt="">
+								</div>
+							</div>
+					  </div>
+					  <span class='msg-erro msg-politica'></span>
 				  
 					  <input class="btn btn-active" type="submit" value="QUERO ME INSCREVER">
 					  <span class='msg-erro msg-envio'></span>
@@ -261,6 +278,7 @@
 					<div class="text-white-50 small">
 						<p>Ainda tem dúvidas? Entre em contato conosco:</p>
 						<p><i class="fa fa-envelope"> oficial@riodocedigital.com.br</i></p>
+						<p><i class="fa fa-phone"> +55 31 3401-1046</i></p>
 						<div class="mb-2">&copy; Todos os direitos reservados ao Rio Doce Digital, 2022.</div>
 					</div>
 				</div>
