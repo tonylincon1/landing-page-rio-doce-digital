@@ -58,13 +58,13 @@ var form = document.getElementById('Página1');
 
         /* Validalink */
         function validlink (tagErro,tagCampo){
-            filter = /https:*/;
+            filter = /https:\/\/drive\.google\.com\/file\/d\/(.*?)\/.*?\?usp=sharing/;
             caixa = document.querySelector(tagErro);
             if (filter.test(tagCampo.value)) {
                 caixa.style.display = 'none';
             }
             else{
-                caixa.innerHTML = "*Por favor, adicione o link do seu questionário de deligência para termos acesso (Exemplo: https:meulink.com.br)";
+                caixa.innerHTML = "*Por favor, gere um link de compartilhamento no google drive do seu questionário de deligência (Basta apenas importar o arquivo no google drive e gerar um link compartilhado)";
                 caixa.style.display = 'block';
                 contErro += 1;
             }
@@ -86,7 +86,6 @@ var form = document.getElementById('Página1');
         required('.msg-publico',publico,"Público de Reassentamento?")
         required('.msg-interesse',interesse,"Interesse no programa")
         required('.msg-questionario',interesse,"Link do Questionário")
-        validlink('.msg-questionario',LinkQuetionario)
         
     
     
@@ -97,15 +96,18 @@ var form = document.getElementById('Página1');
         else {
             form.addEventListener("submit", e => {
                 e.preventDefault();
-                fetch("https://sheetdb.io/api/v1/t3cvu8k1w0df4", {
+                fetch("https://hook.us1.make.com/emo6d98bfrbhh4saeuxgxpmlvipjijv9", {
                     method : "POST",
                     body: new FormData(document.getElementById("Página1")),
                 }).then(
-                    response => response.json()
+                    response => response.toString()
                 ).then((html) => {
                     envio = document.querySelector(".msg-envio");
                     envio.innerHTML = "Suas respostas foram enviadas com sucesso!";
                     envio.style.display = 'block';
+                    setTimeout(function() {
+                        window.location.href = "index.html";
+                    }, 4000);
                 })
             });
         }
