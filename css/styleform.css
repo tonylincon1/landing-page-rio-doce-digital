@@ -99,6 +99,16 @@ input#Idade {
     border-radius: 1rem;
 }
 
+input#Telefone {
+    padding: 10px 8px;
+    color: #1C0A94;
+    border: 2px solid #1C0A94;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1%;
+    border-radius: 1rem;
+}
+
 input#E-mail {
     background-color: white;
     margin-bottom: 1%;
