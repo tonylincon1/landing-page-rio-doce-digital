@@ -4,6 +4,12 @@ form#Página1 {margin: 4%;}
 
 .containerforms{padding-top:8%;text-align: center;width:50%}
 
+h6 {
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+}
+
 .forms h2 {
     color: white;
     text-align: left;

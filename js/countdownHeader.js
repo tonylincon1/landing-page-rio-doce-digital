@@ -4,7 +4,7 @@ const hoursContainer = document.querySelector('#hours')
 const daysContainer = document.querySelector('#days')
 
 const nextYear = new Date().getFullYear()
-const newYearTime = new Date(`May 31 ${nextYear} 00:00:00`)
+const newYearTime = new Date(`Jun 05 ${nextYear} 00:00:00`)
 const countdownContainer = document.querySelector('#countdown')
 
 const getTimeUnit = unit =>  unit < 10 ? '0' + unit : unit
