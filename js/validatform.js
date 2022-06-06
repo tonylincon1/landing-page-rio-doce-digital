@@ -4,6 +4,7 @@ var form = document.getElementById('Página1');
         var nome = document.getElementById('Nome-Completo');
         var cpf = document.getElementById('CPF');
         var idade = document.getElementById('Idade');
+        var telefone = document.getElementById('Telefone');
         var email = document.getElementById('E-mail');
         var estado = document.getElementById('Estado');
         var cidade = document.getElementById('Cidade');
@@ -76,7 +77,7 @@ var form = document.getElementById('Página1');
         validemail('.msg-email',email)
         required('.msg-idade',idade,"Idade")
         verificaIdade('.msg-idade',idade)
-        required('.msg-telefone',idade,"Telefone")
+        required('.msg-telefone',telefone,"Telefone")
         required('.msg-estado',estado,"Estado")
         required('.msg-cidade',cidade,"Cidade")
         required('.msg-escolaridade',escolaridade,"Escolaridade")
