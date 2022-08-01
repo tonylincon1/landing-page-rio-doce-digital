@@ -9,7 +9,7 @@ const hoursContainer1 = document.querySelector('#hours1')
 const daysContainer1 = document.querySelector('#days1')
 
 const nextYear = new Date().getFullYear()
-const newYearTime = new Date(`Jun 20 ${nextYear} 00:00:00`)
+const newYearTime = new Date(`Dec 20 ${nextYear} 00:00:00`)
 const countdownContainer = document.querySelector('#countdown')
 const countdownContainer1 = document.querySelector('#countdown1')
 
